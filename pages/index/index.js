@@ -50,5 +50,17 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  next: function (event) {
+    console.log(event.detail);
+  },
+  prev: function (event) {
+    console.log(event.detail);
+  },
+  dateChange: function (event) {
+    console.log(event.detail);
+  },
+  dayClick: function (event) {
+    console.log(event.detail);
   }
 })
